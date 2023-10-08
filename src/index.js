@@ -1,6 +1,7 @@
-import React from 'react'
-import styles from './styles.module.css'
+import CustomButton from './components/CustomButton';
+import HeartLike from './components/HeartLike';
+import ThumbLike from './components/ThumbLike';
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+// You can also import other components if you have more
+// import AnotherComponent from './components/AnotherComponent';
+export { CustomButton, HeartLike, ThumbLike };

@@ -1,9 +1,83 @@
-/* add css module styles here (optional) */
+.btn{
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
+  background-color: transparent;
+  z-index: 5;
+  position: relative;
+  border:none;
+  cursor: pointer;
   text-align: center;
+}
+
+.btn_heartlike:hover .svg{
+  filter: drop-shadow(0 0 30px red); 
+}
+.btn_thumblike:hover .bi{
+  filter: drop-shadow(0 0 30px blue); 
+}
+.overflow_div{
+  opacity: 0.5;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  margin-left: -6px;
+  margin-top: -1px;
+  z-index: 3;
+
+}
+.svg, .bi_hand_thumbs_up, .bi_hand_thumbs_up_fill{
+  z-index: 2;
+  text-overflow: hidden;
+  margin: auto;
+  transition: 0.9s;
+  transition: fill 0.9s ease; /* Add a fill transition for the heart color */ 
+}
+.bi_hand_thumbs_up, .bi_hand_thumbs_up_fill{
+
+  fill: blue; /* Change the fill color when liked */
+}
+
+.svg{
+  fill: red; /* Change the fill color when liked */
+
+}
+.customButton{
+  border: 1px solid gray;
+  padding: 1rem;
+  padding-inline: 2rem;
+  border-radius: 1rem;
+}
+.customButton:hover{
+  background: #e4e6ff;
+  border: 1px solid royalblue;
+
+}
+
+.spinner{
+  width: 50px;
+  height: 50px;
+  display: grid;
+}
+.spinner::before,
+.spinner::after {    
+  content:"";
+  grid-area: 1/1;
+  --c: radial-gradient(farthest-side,#766DF4 92%,#0000);
+  background: 
+    var(--c) 50%  0, 
+    var(--c) 50%  100%, 
+    var(--c) 100% 50%, 
+    var(--c) 0    50%;
+  background-size: 12px 12px;
+  background-repeat: no-repeat;
+  animation: s2 1s infinite;
+}
+.spinner::before {
+margin:4px;
+filter:hue-rotate(45deg);
+background-size: 8px 8px;
+animation-timing-function: linear
+}
+
+@keyframes s2{ 
+100%{transform: rotate(.5turn)}
 }

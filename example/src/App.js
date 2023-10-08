@@ -1,10 +1,25 @@
 import React from 'react'
 
-import { ExampleComponent } from 'like-button-celebration'
+import { CustomButton, HeartLike, ThumbLike } from 'like-button-celebration'
 import 'like-button-celebration/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <>
+    <div className='div'>
+    
+    <ThumbLike
+                IconWidth="32" 
+                IconHeight="32"
+                
+                Fill="blue" 
+            />
+    </div>
+    
+
+
+    </>
+    )
 }
 
 export default App

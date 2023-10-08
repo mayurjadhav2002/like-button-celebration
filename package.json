@@ -1,10 +1,31 @@
 {
   "name": "like-button-celebration",
   "version": "1.0.0",
-  "description": "Made with create-react-library",
-  "author": "mayurjadhav2002",
+  "description": "like-button-celebration designed to add animated buttons for liking, unliking, upvoting, and custom interactions to your blogs, articles, and web content. With this library, you can easily integrate interactive buttons that celebrate user clicks, adding delightful animations to your web applications.",
+  "author": "Mayur Jadhav (https://github.com/mayurjadhav2002)",
   "license": "MIT",
-  "repository": "mayurjadhav2002/like-button-celebration",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayurjadhav2002/like-button-celebration.git"
+  },
+
+  "keywords": [
+    "Like",
+    "unvote",
+    "twitter",
+    "like",
+    "button",
+    "animated",
+    "like",
+    "button",
+    "animated",
+    "like",
+    "animated",
+    "heart",
+    "button",
+    "animated",
+    "buttons"
+  ],
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -27,7 +48,6 @@
     "react": "^16.0.0"
   },
   "devDependencies": {
-    "microbundle-crl": "^0.13.10",
     "babel-eslint": "^10.0.3",
     "cross-env": "^7.0.2",
     "eslint": "^6.8.0",
@@ -41,6 +61,7 @@
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-standard": "^4.0.1",
     "gh-pages": "^2.2.0",
+    "microbundle-crl": "^0.13.10",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.0.4",
     "react": "^16.13.1",
@@ -48,6 +69,16 @@
     "react-scripts": "^3.4.1"
   },
   "files": [
-    "dist"
-  ]
+    "build"
+  ],
+  "dependencies": {
+    "party-js": "^2.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/mayurjadhav2002/like-button-celebration/issues"
+  },
+  "homepage": "https://github.com/mayurjadhav2002/like-button-celebration#readme",
+  "directories": {
+    "example": "example"
+  }
 }

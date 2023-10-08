@@ -1,0 +1,53 @@
+.btn{
+
+    background-color: transparent;
+    z-index: 5;
+    position: relative;
+    border:none;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .btn_heartlike:hover .svg{
+    filter: drop-shadow(0 0 30px red); 
+  }
+  .btn_thumblike:hover .bi{
+    filter: drop-shadow(0 0 30px blue); 
+  }
+  .overflow_div{
+    opacity: 0.5;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    margin-left: -6px;
+    margin-top: -1px;
+    z-index: 3;
+  
+  }
+  .svg, .bi_hand_thumbs_up, .bi_hand_thumbs_up_fill{
+    z-index: 2;
+    text-overflow: hidden;
+    margin: auto;
+    transition: 0.9s;
+    transition: fill 0.9s ease; /* Add a fill transition for the heart color */ 
+  }
+  .bi_hand_thumbs_up, .bi_hand_thumbs_up_fill{
+
+    fill: blue; /* Change the fill color when liked */
+  }
+  
+  .svg{
+    fill: red; /* Change the fill color when liked */
+
+  }
+  .customButton{
+    border: 1px solid gray;
+    padding: 1rem;
+    padding-inline: 2rem;
+    border-radius: 1rem;
+  }
+  .customButton:hover{
+    background: #e4e6ff;
+    border: 1px solid royalblue;
+
+  }
