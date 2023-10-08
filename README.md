@@ -13,6 +13,8 @@ npm install --save like-button-celebration party-js
 ## Usage
 
 ## Heart Like button
+![heartLike](https://github.com/mayurjadhav2002/like-button-celebration/assets/63432459/2bad86b2-0315-40e0-8e31-5b365cf10e47)
+
 ```jsx
 import React, {useState} from 'react'
 import { HeartLike } from 'like-button-celebration'
@@ -80,18 +82,12 @@ The `HeartLike` component is designed for heart-shaped like buttons and provides
         Fill="blue"
       />
 ```
----------------
---------------
---------------------
----------------
---------------
---------------------
-
-
 
 
 ## Thumbs Up Like
 Props same as Above Heart Like Button.
+![likebutton](https://github.com/mayurjadhav2002/like-button-celebration/assets/63432459/cf74634d-319e-41ed-8a28-5d940e35fbe9)
+
 ## Example
 ```jsx
 import React, {useState} from 'react'
@@ -124,12 +120,7 @@ const App = () => {
 
 export default App
 ```
----------------
---------------
---------------------
----------------
---------------
---------------------
+
 
 
 ## Custom Button with Celebration Animation
@@ -168,11 +159,6 @@ export default App;
 
 ```
 ---------------
---------------
---------------------
----------------
---------------
---------------------
 
 
 ## License
