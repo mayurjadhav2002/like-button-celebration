@@ -13,8 +13,7 @@ npm install --save like-button-celebration party-js
 ## Usage
 
 ## Heart Like button
-![heartLike](https://github.com/mayurjadhav2002/like-button-celebration/assets/63432459/2bad86b2-0315-40e0-8e31-5b365cf10e47)
-
+[![heart-Like.gif](https://i.postimg.cc/q76CK1jr/heart-Like.gif)]
 ```jsx
 import React, {useState} from 'react'
 import { HeartLike } from 'like-button-celebration'

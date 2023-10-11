@@ -1,6 +1,6 @@
 {
   "name": "like-button-celebration",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "like-button-celebration designed to add animated buttons for liking, unliking, upvoting, and custom interactions to your blogs, articles, and web content. With this library, you can easily integrate interactive buttons that celebrate user clicks, adding delightful animations to your web applications.",
   "author": "Mayur Jadhav (https://github.com/mayurjadhav2002)",
   "license": "MIT",
